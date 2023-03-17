@@ -1,4 +1,6 @@
 def movimiento_robot(orientacion_actual:str, giro_1:str, giro_2:str, giro_3:str) -> str:
+    '''Función que nos retorna la orientación de un robot tras un movimiento'''
+    
     if orientacion_actual == "N":
         p = 0
     elif orientacion_actual == "E":
