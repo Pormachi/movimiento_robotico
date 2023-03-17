@@ -1,7 +1,8 @@
 def picas_y_fijas(numero_secreto:int, intento:int)->dict:
     """ Esta función consiste en un pequeño juego que consiste en adivinar
-    un número en la menor cantidad de intentos. """
-    
+    un número (número_secreto) en la menor cantidad de intentos y nos devolverá
+     un diccionario """
+
     diccionario = {}
     diccionario["FIJAS"] = 0
     diccionario["PICAS"] = 0
